@@ -16,7 +16,7 @@
 .button-container {
     display: flex;
     justify-content: center;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 
 .jobButton {

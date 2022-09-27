@@ -9,11 +9,14 @@
   font-size: 3rem;
 }
 
+.button-container::-webkit-scrollbar {
+    display: hidden;
+}
 
 .button-container {
     display: flex;
     justify-content: center;
-
+    overflow-x: scroll;
 }
 
 .jobButton {

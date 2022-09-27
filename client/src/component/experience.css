@@ -1,5 +1,4 @@
 .experience-container {
-  /* background-color: aquamarine; */
   height: 500px;
 }
 
@@ -10,11 +9,18 @@
   font-size: 3rem;
 }
 
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
 .jobButton {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 1.2rem;
+  font-size: 14px;
   letter-spacing: 0.1rem;
   margin: 0 0.5rem;
   transition: 0.1rem;
@@ -94,7 +100,7 @@ p.job-date {
 }
 
 @media screen and (min-width: 992px) {
-  .container {
+  .experience-container {
     height: 500px;
     width: 900px;
   }
@@ -118,7 +124,7 @@ p.job-date {
 }
 
 @media screen and (max-width: 500px) {
-  .container {
+  .experience-container {
     width: 400px;
   }
 

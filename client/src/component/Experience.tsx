@@ -7,10 +7,10 @@ const Experience = () => {
   return (
     <div>
       <div className="experience-container">
-        <div className="titleDiv row">Experience</div>
+        <div className="titleDiv">Experience</div>
 
-        <div className="job row">
-          <div className="col-md-3 btn-container">
+        <div className="job">
+          <div className="button-container">
             {jobs.map((job, index) => {
               return (
                 <button

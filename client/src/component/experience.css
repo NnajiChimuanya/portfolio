@@ -1,6 +1,6 @@
-.experience-container {
+/* .experience-container {
   height: 500px;
-}
+} */
 
 .titleDiv {
   display: flex;
@@ -9,12 +9,14 @@
   font-size: 3rem;
 }
 
-
-
-.button-container {
+.job{
     display: flex;
-    justify-content: center;
-    overflow-x: scroll;
+}
+
+.btn-container {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
 }
 
 .button-container::-webkit-scrollbar {
@@ -25,7 +27,7 @@
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.1rem;
   margin: 0 0.5rem;
   transition: 0.1rem;
@@ -34,6 +36,7 @@
   line-height: 1;
   outline-color: hsl(186, 100%, 94%);
   font-family: "Mako", sans-serif;
+ 
 }
 
 .jobButton:active {
@@ -46,7 +49,7 @@
 
 .jobButton:hover {
   color: #2caeba;
-  box-shadow: 0 2px #2caeba;
+
   transform: scale(1.23);
   transition: 200ms ease-in;
 }
@@ -132,6 +135,16 @@ p.job-date {
 @media screen and (max-width: 500px) {
   .experience-container {
     width: 400px;
+  }
+
+  .job {
+    display: block;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .details {

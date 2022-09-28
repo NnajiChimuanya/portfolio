@@ -1,4 +1,6 @@
-export const jobs = [
+import IJob from "./interface/jobInterface";
+
+export const jobs: IJob[] = [
   {
     id: "recAGJfiU4CeaV0HL",
     order: 3,

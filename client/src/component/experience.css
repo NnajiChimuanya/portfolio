@@ -36,7 +36,7 @@
   line-height: 1;
   outline-color: hsl(186, 100%, 94%);
   font-family: "Mako", sans-serif;
- 
+   
 }
 
 .jobButton:active {
@@ -50,12 +50,16 @@
 .jobButton:hover {
   color: #2caeba;
 
-  transform: scale(1.23);
+  transform: scale(0.9);
   transition: 200ms ease-in;
 }
 .activeButton {
   color: #2caeba;
   box-shadow: 0 2px #2caeba;
+}
+
+.details {
+    flex : 0.7
 }
 
 .details h2 {

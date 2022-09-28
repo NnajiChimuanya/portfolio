@@ -4,6 +4,7 @@ interface IJob {
   title: string;
   dates: string;
   duties: string[];
+  tools?: string[];
   company: string;
 }
 

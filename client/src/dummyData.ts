@@ -2,22 +2,23 @@ import IJob from "./interface/jobInterface";
 
 export const jobs: IJob[] = [
   {
-    id: "recAGJfiU4CeaV0HL",
+    id: "05",
     order: 3,
-    title: "Full Stack Web Developer",
-    dates: "December 2015 - Present",
+    title: "Full Stack Web Engineer",
+    dates: "August 2022 - Present",
     duties: [
-      "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
-      "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
-      "Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian.",
+      "Designed and implemented the API, scaled up the server functionality and ensured zero downtime using nodejs cluster and os module",
+      "Created the endpoints for user signup and login using JWT for authentication and authorization, using mongodb database for storing data. Ensured that user data is secured by hashing the password using mongoose pre-save hook. Ensured that certain routes are protected by implemented an isAuthenticated middleware which checks for and verifies the authenticity of the JWT token",
+      "Ensured smooth application flow by creating error handlers for possible errors and exceptions that may occur during creating a new user and database connection.",
     ],
+    tools: ["TypeScript", "NodeJs", "ReactJS", "MongoDb", "Git"],
     company: "Trade-x",
   },
   {
-    id: "recAGdJdffiU4CeaV0HL",
+    id: "04",
     order: 3,
-    title: "Full Stack Web Developer",
-    dates: "December 2015 - Present",
+    title: "Frontend Engineer",
+    dates: "July 2022 - August 2022",
     duties: [
       "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
       "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
@@ -26,10 +27,10 @@ export const jobs: IJob[] = [
     company: "Forged",
   },
   {
-    id: "recAGJfdfiU4CeaV0HL",
+    id: "03",
     order: 3,
-    title: "Full Stack Web Developer",
-    dates: "December 2015 - Present",
+    title: "Full Stack Web Engineer",
+    dates: "August 2022",
     duties: [
       "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
       "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
@@ -38,9 +39,9 @@ export const jobs: IJob[] = [
     company: "Upwork",
   },
   {
-    id: "recIL6mJNfWObonls",
+    id: "02",
     order: 2,
-    title: "Front-End Engineer",
+    title: "Back-end Engineer",
     dates: "May 2015 - December 2015",
     duties: [
       "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid.",
@@ -51,9 +52,9 @@ export const jobs: IJob[] = [
     company: "Klever",
   },
   {
-    id: "rec61x18GVY99hQq5",
+    id: "01",
     order: 1,
-    title: "Engineering Intern",
+    title: "Software Engineering Intern",
     dates: "May 2014 - September 2015",
     duties: [
       "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",

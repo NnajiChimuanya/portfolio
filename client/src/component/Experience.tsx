@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./experience.css";
 import { jobs } from "../dummyData";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 
 const Experience = () => {
   const [value, setValue] = useState(0);
-  const { company, dates, duties, title } = jobs[value];
+  const { company, dates, duties, title, tools } = jobs[value];
 
   return (
     <div>
@@ -30,13 +30,18 @@ const Experience = () => {
 
           <div className="details">
             <h2>{title}</h2>
-            <h4>{company}</h4>
+            <h3>{company}</h3>
+            <div className="tools">
+              {tools?.map((tool, index) => {
+                return <h4 key={index}>{tool}</h4>;
+              })}
+            </div>
             <p className="job-date">{dates}</p>
             {duties.map((duty, index) => {
               return (
-                <div className="duty">
+                <div key={index} className="duty">
                   <KeyboardDoubleArrowRightIcon className="arrow" />{" "}
-                  <p key={index}>{duty}</p>
+                  <p>{duty}</p>
                 </div>
               );
             })}

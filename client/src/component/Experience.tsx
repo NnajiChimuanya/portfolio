@@ -8,7 +8,7 @@ const Experience = () => {
   const { company, dates, duties, title, tools } = jobs[value];
 
   return (
-    <div>
+    <div className="experience-main">
       <div className="experience-container">
         <div className="titleDiv">Experience</div>
 

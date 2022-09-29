@@ -16,7 +16,7 @@
 .btn-container {
   flex: 0.3;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .button-container::-webkit-scrollbar {
@@ -164,6 +164,7 @@ p.job-date {
 
   .btn-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }

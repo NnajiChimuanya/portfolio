@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="main">
       <Intro />
-      <Experience />
+      {/* <Experience /> */}
     </div>
   );
 };

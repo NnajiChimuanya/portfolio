@@ -1,0 +1,83 @@
+.intro-main {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container {
+    display: flex;
+   
+}
+
+.intro-text { 
+    line-height: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: auto;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+}
+
+.text-1 {
+   font-size: 25px;
+}
+
+.text-2{
+    font-size: 50px;
+}
+
+.text-3{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.intro-image {
+    margin-left: 30px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.muanya {
+    height: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .intro-text p {
+        font-size: 18px;
+        
+    }
+    
+    .intro-text h2 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .intro-container {
+        display: flex;
+        align-content: ;
+    }
+}

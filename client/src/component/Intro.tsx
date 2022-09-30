@@ -1,8 +1,10 @@
 import React from "react";
 import "./intro.css";
+import { Button } from "@mui/material";
 
 const Intro = () => {
   return (
+    // I used align-self to make the image centred
     <div className="intro-main">
       <div className="intro-container">
         <div className="intro-text">
@@ -14,8 +16,8 @@ const Intro = () => {
           <div className="text-2">
             <h2> Nnaji Chimuanya </h2>
           </div>
-          <div className="p">
-            <div className="text-3">
+          <div className="p text-3">
+            <div>
               <p> A FullStack developer and Backend specialist, </p>
               <p> who's intrested in building real-world solutions </p>
             </div>
@@ -29,6 +31,8 @@ const Intro = () => {
           />
         </div>
       </div>
+
+      <Button> Go to portfolio</Button>
     </div>
   );
 };

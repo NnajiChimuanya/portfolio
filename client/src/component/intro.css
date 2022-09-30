@@ -35,6 +35,7 @@
   font-size: 20px;
   margin-top: -20px;
   line-height: 1px;
+
 }
 
 .intro-image {
@@ -57,16 +58,20 @@ align-self: center;
 
 .portfolio-button {
     color: white !important;
-    background-color: #796b63 !important;
+    background-color: #E7960F!important;
     text-transform: inherit !important;
     border: none !important;
     font-weight: 900 !important;
+    border-radius: 18px 18px 18px 18px !important;
 }
 
 .portfolio-link {
     color:white !important;
     text-decoration: none;
+    padding: 5px 20px;
 }
+
+
 
 
 

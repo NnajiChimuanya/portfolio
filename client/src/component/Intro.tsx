@@ -35,7 +35,7 @@ const Intro = () => {
       <div className="button-container">
         <Button variant="outlined" fullWidth className="portfolio-button">
           <Link className="portfolio-link" to={"/portfolio"}>
-            Go to portfolio
+            Go to portfolio &rarr;
           </Link>
         </Button>
       </div>

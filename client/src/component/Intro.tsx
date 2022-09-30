@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -31,8 +32,13 @@ const Intro = () => {
           />
         </div>
       </div>
-
-      <Button> Go to portfolio</Button>
+      <div className="button-container">
+        <Button variant="outlined" fullWidth className="portfolio-button">
+          <Link className="portfolio-link" to={"/portfolio"}>
+            Go to portfolio
+          </Link>
+        </Button>
+      </div>
     </div>
   );
 };

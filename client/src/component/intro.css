@@ -49,6 +49,28 @@ align-self: center;
   border-radius: 50%;
 }
 
+.button-container {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: calc(100vh - 90vh);
+}
+
+.portfolio-button {
+    color: white !important;
+    background-color: #796b63 !important;
+    text-transform: inherit !important;
+    border: none !important;
+    font-weight: 900 !important;
+}
+
+.portfolio-link {
+    color:white !important;
+    text-decoration: none;
+}
+
+
+
+
 @media screen and (max-width: 850px) {
   .intro-container {
     display: flex;
@@ -73,6 +95,10 @@ align-self: center;
     font-size: 15px;
     line-height: 1px;
   }
+
+  .button-container {
+    margin-bottom: calc(30vh);
+    }
 }
 
 @media screen and (max-width: 550px) {
